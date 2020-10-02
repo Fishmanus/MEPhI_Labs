@@ -1,0 +1,11 @@
+.:
+total 8
+-rw-rw-r--. 1 fishmanus fishmanus    0 Oct  2 18:13 2lab.txt
+drw-rw-rw-. 2 fishmanus fishmanus 4096 Oct  2 17:01 dir
+-rw-rw----. 1 root      fishmanus    5 Oct  2 16:57 file
+-rw-rw-rw-. 1 fishmanus fishmanus    0 Oct  2 18:06 testMask0000
+-rw-------. 1 fishmanus fishmanus    0 Oct  2 18:06 testMask0077
+
+./dir:
+total 4
+-rw-rw-r--. 1 fishmanus fishmanus 7 Oct  2 17:01 new_file

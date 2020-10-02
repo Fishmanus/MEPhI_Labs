@@ -1,0 +1,423 @@
+    1  sudo dnf install nodejs
+    2  node -v
+    3  pth
+    4  cd ..
+    5  cd Downloads/
+    6  mkdir Soft
+    7  touch /Soft/WebStorm
+    8  cd Soft
+    9  mkdir Webstorm
+   10  cd
+   11  tar -xvf filename.tar.bz2 -C /Soft/Webstorm
+   12  tar -xvf WebStorm-2020.2.1.tar.gz -C /Soft/Webstorm
+   13  pwd
+   14  ls
+   15  ls -f
+   16  ls -F
+   17  ls -l
+   18  clear
+   19  ls -la
+   20  ls
+   21  cd Downloads
+   22  ls
+   23  cd
+   24  cd Computer
+   25  cd tmp
+   26  cd Downloads/
+   27  ls
+   28  tar -xvf WebStorm-2020.2.1.tar.gz -C /home/fishmanus/Soft/Webstorm/
+   29  clear
+   30  echo $PATH
+   31  cd
+   32  cd Soft/Webstorm/WebStorm-202.6948.73/bin/
+   33  $ export PATH=$PATH:/home/fishmanus/Soft/Webstorm/WebStorm-202.6948.73/bin
+   34  $ export PATH="$home/fishmanus/Soft/Webstorm/WebStorm-202.6948.73/bin:$PATH"
+   35  export PATH="$home/fishmanus/Soft/Webstorm/WebStorm-202.6948.73/bin:$PATH"
+   36  echo PATH
+   37  cd
+   38  echo $PATH
+   39  cd Soft/
+   40  cd
+   41  sudo snap install webstorm --classic
+   42  cd Soft/Webstorm/WebStorm-202.6948.73/bin/
+   43  ./webstorm.sh 
+   44  clear
+   45  sudo dnf -y install dnf-plugins-core
+   46  sudo dnf config-manager --add-repo https://download.docker.com/linux/fedora/docker-ce.repo
+   47  sudo dnf config-manager https://download.docker.com/linux/fedora/docker-ce.repo
+   48  sudo dnf config-manager -https://download.docker.com/linux/fedora/docker-ce.repo
+   49  sudo dnf config-manager https://download.docker.com/linux/fedora/docker-ce.repo
+   50  clear
+   51  sudo dnf config-manager https://download.docker.com/linux/fedora/docker-ce.repo
+   52  sudo dnf config-manager --add-repo https://download.docker.com/linux/fedora/docker-ce.repo
+   53  cd
+   54  sudo dnf install docker-ce docker-c-cli containerd.io
+   55  sudo dnf install docker-ce docker-ce-cli containerd.io
+   56  -v
+   57  v
+   58  -V
+   59  ver
+   60  clear
+   61  cd /home/fishmanus/
+   62  cd /home
+   63  cd
+   64  cd ..
+   65  cd fishmanus/
+   66  sudo dnf -y install /home/fishmanus/Downloads/docker-ce-19.03.12-3.fc31.x86_64.rpm 
+   67  sudo dnf -y install /home/fishmanus/Downloads/docker-ce-19.03.12-3.fc31.x86_64.rpm /home/fishmanus/Downloads/containerd.io-1.2.13-3.1.fc31.x86_64.rpm /home/fishmanus/Downloads/docker-ce-cli-19.03.11-3.fc31.x86_64.rpm 
+   68  clear
+   69  sudo systemctl start docker
+   70  sudo docker run hello-world
+   71  sudo dnf -y install /home/fishmanus/Downloads/docker-ce-19.03.12-3.fc31.x86_64.rpm 
+   72  sudo dnf install grubby
+   73  systemd.unified_cgroup_hierarchy=0
+   74  podman run --rm hello-world:latest
+   75  podman run hello-world
+   76  cal
+   77  cal -3
+   78  cal -a
+   79  man cal
+   80  whoami
+   81  whoaim
+   82  whoami
+   83  echo "Hello world!"
+   84  date
+   85  cal
+   86  man cal
+   87  cal 3m
+   88  man cal
+   89  cal -3
+   90  clear
+   91  history
+   92  clear
+   93  man pwd
+   94  pwd
+   95  cd /
+   96  cd ..
+   97  pwd
+   98  ls
+   99  cd
+  100  cd ..
+  101  pwd
+  102  cd
+  103  pwd
+  104  cd..
+  105  cd ..
+  106  ls
+  107  man ls
+  108  ls -l
+  109  cd
+  110  mkdir fruits
+  111  cd /
+  112  ~/animals
+  113  mkdir ~/animals
+  114  man touch
+  115  touch /tmp/temp
+  116  cd
+  117  cd fruits/
+  118  touch apple
+  119  touch banana
+  120  ls
+  121  touch pineaple
+  122  touch lion
+  123  touch /home/fishmanus/animals/cat.txt /home/fishmanus/animals/dog.txt
+  124  ls /home/fishmanus/animals/
+  125  touch /home/fishmanus/animals/elephant.txt
+  126  ls b*
+  127  ls *a
+  128  ls *n*
+  129  ls [bi]*
+  130  cp /etc/passwd ~
+  131  man cat
+  132  cat /etc/issue
+  133  cp /etc/issue /home/fishmanus/fruits/apple 
+  134  cat apple 
+  135  man mv
+  136  mv lion /home/fishmanus/animals/
+  137  ls /home/fishmanus/animals/
+  138  mv pineaple pineapple
+  139  ls
+  140  wc /etc/passwd -l
+  141  cd
+  142  man ln
+  143  ln -s /etc/passwd passwd_link
+  144  ln .bash_history history_hard
+  145  ls
+  146  ls -l
+  147  ls -la
+  148  man rf
+  149  man rm
+  150  rmdir fruits/
+  151  rm -fr fruits/
+  152  ls
+  153  man rm
+  154  mkdir fruit
+  155  mkdir fruit/fruit1
+  156  rm -r fruit/
+  157  ls
+  158  cat /etc/passwd /var/log/boot.log 
+  159  ls -l /var/log/boot.log 
+  160  chmod 660 /var/log/boot.log 
+  161  cp -r /etc/init.d/ ~
+  162  ls
+  163  rm -r init.d/
+  164  ls -l
+  165  man cut
+  166  man sort
+  167  cut -d: -f1 /etc/passwd | sort -d
+  168  echo /etc/passwd
+  169  cat /etc/passwd
+  170  cut -d: -f1,3,4 /etc/passwd | column -ts: | less
+  171  man column
+  172  man cut
+  173  id
+  174  cut -d: -f1,3 /etc/passwd | column -ts: | less
+  175  man grep 
+  176  grep :/bin/bash /etc/passwd |wc -l
+  177  grep :/bin/bash /etc/passwd |cut -d: -f1 |sort -dr 
+  178  man rpm
+  179  man head
+  180  man tail
+  181  rpm -qa --qf '%{NAME}: %{SIZE}\n' | sort -rn -k2,2 | head -n25
+  182  rpm -qa --qf '%{NAME}: %{SIZE}\n' | sort -rn -k2,2 | head
+  183  man du
+  184  rpm -ql man-db | xargs -l du >2 /dev/null  |sort -n
+  185  rpm -ql man -db | xargs -l du >2 /dev/null  |sort -n
+  186  rpm -ql man-db | xargs -l du | >2 /dev/null  |sort -n
+  187  rpm -ql man-db | xargs -l du >2 /dev/null  |sort -n
+  188  sudo rpm -ql man-db | xargs -l du >2 /dev/null  |sort -n
+  189  rpm -ql man-db | xargs -l du 2> /dev/null  |sort -n
+  190  man top
+  191  top -b -n1 |sort -d
+  192  top -b -n1 
+  193  top -b -n1 | tail -n+8 | cut -c7- | tr -s ' ' '\t' | cut -f 11,5
+  194  top -b -n1 | tail -n+8 | cut -c7- | tr -s ' ' '\t' | cut -f 12,5
+  195  man sort
+  196  cut -f1 /etc/passwd |sort -d | tr ":" " "
+  197  man cut
+  198  cut -d: -f1 /etc/passwd |sort -d | tr ":" " "
+  199  cut -d: -f1 /etc/passwd |sort -d
+  200  cat /etc/passwd
+  201  cut -d: -f1,7 /etc/passwd |sort -d
+  202  cut -d: -f1,7 /etc/passwd |sort -d | tr ":" " "
+  203  cut -d: -f1,7 /etc/passwd |sort -d | tr ":" "#################"
+  204  cut -d: -f1,7 /etc/passwd |sort -d | tr ":" "################'#'"
+  205  cut -d: -f1,7 /etc/passwd |sort -d | tr ":" "         "
+  206  git
+  207  man git
+  208  git --gelp
+  209  cd /usr/share/doc/git-*
+  210  cd /usr/share/doc/git/
+  211  ls
+  212  grep user-maual
+  213  cd /usr/share/doc/git-*
+  214  cd /usr/share/doc/git*
+  215  man ls
+  216  man ls --file-type .txt
+  217  man ls --file-type txt
+  218  ls
+  219  cat user-manual.txt | tr ' ' '\012'
+  220  cat user-manual.txt | tr ' ' '\012' | tr '[:upper:]' '[:lower:]' 
+  221  cat user-manual.txt | tr ' ' '\012' | tr '[:upper:]' '[:lower:]' | tr -d '[:punct]' 
+  222  cat user-manual.txt | tr ' ' '\012' | tr '[:upper:]' '[:lower:]' | tr -d '[:punct]' | grep -v '[^a-z]'
+  223  cat user-manual.txt | tr ' ' '\012' | tr '[:upper:]' '[:lower:]' | tr -d '[:punct]' | grep -v '[^a-z]' | sort |  cat user-manual.txt | tr ' ' '\012' | tr '[:upper:]' '[:lower:]' | tr -d '[:punct]' | grep -v '[^a-z]' | sort 
+  224  cat user-manual.txt | tr ' ' '\012' | tr '[:upper:]' '[:lower:]' | tr -d '[:punct]' | grep -v '[^a-z]' | sort |  cat user-manual.txt | tr ' ' '\012' | tr '[:upper:]' '[:lower:]' | tr -d '[:punct]' | grep -v '[^a-z]' | sort | uniq -c
+  225  cat user-manual.txt | tr ' ' '\012' | tr '[:upper:]' '[:lower:]' | tr -d '[:punct]' | grep -v '[^a-z]' | sort |  cat user-manual.txt | tr ' ' '\012' | tr '[:upper:]' '[:lower:]' | tr -d '[:punct]' | grep -v '[^a-z]' | sort | uniq -c | sort -rn
+  226  cat user-manual.txt | tr ' ' '\012' | tr '[:upper:]' '[:lower:]' | tr -d '[:punct]' | grep -v '[^a-z]' | sort |  cat user-manual.txt | tr ' ' '\012' | tr '[:upper:]' '[:lower:]' | tr -d '[:punct]' | grep -v '[^a-z]' | sort | uniq -c | sort -rn | head -5
+  227  cat user-manual.txt | tr -cs 
+  228  cat user-manual.txt | tr -cs '[alpha:]' '\n' | tr '[:upper:]' '[:lower:]
+  229  cat user-manual.txt | tr -cs '[alpha:]' '\n' | tr '[:upper:]' '[:lower:]' | sort | uniq -c | sort -rn | head -5
+  230  cat user-manual.txt | tr -cs '[alpha:]' '\n' | tr '[:upper:]' '[:lower:]
+  231  cat user-manual.txt | tr -cs '[:alpha:]' '\n' | tr '[:upper:]' '[:lower:]' | sort | uniq -c | sort -rn | head -5
+  232  tr '[:lower:]' '[:upper:]' < user-manual.txt | tr -d '[:punct:] \n\t' | fold -w1 | sort | uniq -c | sort -rn | head -5
+  233  man grep
+  234  tr -cs '[:alpha:]' '\n' < user-manual.txt | less | grep -E ........ | sort | uniq -c | sort -rn | head
+  235  tr -cs '[:alpha:]' '\n' < user-manual.txt | less | grep -E ... | sort | uniq -c | sort -rn | head
+  236  tr -cs '[:alpha:]' '\n' < user-manual.txt | less | grep -E ............. | sort | uniq -c | sort -rn | head
+  237  ping 
+  238  ping 192.168.10.1
+  239  ping 192.168.17.1
+  240  man curl
+  241  curl wttr.in
+  242  curl yandex.ru
+  243  hostname -I
+  244  man wget 
+  245  wget https://raw.githubusercontent.com/jlevy/the-art-of-command-line/master/README-ru.md | less
+  246  sudo wget https://raw.githubusercontent.com/jlevy/the-art-of-command-line/master/README-ru.md | less
+  247  cdd
+  248  cd
+  249  ls
+  250  cd Downloads/
+  251  ls
+  252  cd /usr/share/
+  253  ls
+  254  cd doc/git/
+  255  less README-ru.md 
+  256  cat README-ru.md 
+  257  more README-ru.md 
+  258  less README-ru.md 
+  259  sudo id
+  260  sudo less /var/log/messages
+  261  sudo less /var/log/
+  262  cd
+  263   cd /var/log/
+  264  ls
+  265  su
+  266  history > lab1_history.txt
+  267  sudo history > lab1_history.txt
+  268  man history 
+  269  cd
+  270  sudo history > lab1_history.txt
+  271  history > lab1_history.txt
+  272  ls
+  273  less lab1_history.txt 
+  274  node Tasks.js 
+  275  npm init
+  276  npm install express --save
+  277  npm install -g npm
+  278  sudo npm install -g npm
+  279  node Tasks.js 
+  280  ode Tasks.js 
+  281  node Tasks.js 
+  282  cal
+  283  ps
+  284  ls
+  285  cd passwd
+  286  cd /home/fishmanus/passwd
+  287  cd animals/
+  288  ls
+  289  find *[tx]
+  290  find *[tx]*
+  291  find *[tx]* *[c]*
+  292  find *[tx]* && *[c]*
+  293  find *[tx]* | *[c]*
+  294  find *[tx]* | find  *[c]*
+  295  find *[tx]* | find  *[o]*
+  296  ls
+  297  rm -r downloadedArchieves/
+  298  mkdir downloadedArchieves
+  299  exit
+  300  cd Downloads/LinuxPkg_5.13rc3/
+  301  ./install
+  302  ls
+  303  cd realtek-linux-audiopack-5.13/
+  304  ./install 
+  305  sudo ./install 
+  306  alsamixer 
+  307  ispci
+  308  lspci 
+  309  bunzip2 alsa-driver-*
+  310  cd Downloads/
+  311  bunzip2 alsa-driver-*
+  312  tar -xf alsa-driver-1.0.9.tar 
+  313  cd alsa-driver-1.0.9/
+  314  ls
+  315  ./configure 
+  316  make
+  317  sudo make install
+  318  sudo ./snddevices
+  319  apt -get install gnome-tweak-tool
+  320  apt -g install gnome-tweak-tool
+  321  apt-get install gnome-tweak-tool
+  322  sudo apt-get install gnome-tweak-tool
+  323  gsettings get org.gnome.desktop.peripherals.touchpad click-method
+  324  gsettings get org.gnome.desktop.peripherals.touchpad click-method 'areas'
+  325  gsettings get org.gnome.desktop.peripherals.touchpad click-method 'fingers'
+  326  gsettings get org.gnome.desktop.peripherals.touchpad click-method "areas"
+  327  gsettings get org.gnome.desktop.peripherals.touchpad click-method areas
+  328  npm install hbs --save
+  329  cd WebstormProjects/Test/ZubLabs/
+  330  ls
+  331  mkdir views
+  332  cd views/
+  333  mkdir layouts
+  334  alsa
+  335  alsamixer 
+  336  cat /proc/devices 
+  337  grep auido
+  338  grep audio
+  339  clear
+  340  lspci
+  341  alsactl init
+  342  lspci
+  343  lspci | grep audio
+  344  lspci -k
+  345  rpm install alsa-utils
+  346  rpm 
+  347  rpm -i alsa-utils
+  348  clear
+  349  asoundconf 
+  350  asoundconf list
+  351  clear
+  352  cat /etc/alsa/conf.d/
+  353  cat /etc/alsa/conf.d/50-pulseaudio.conf 
+  354  systemctl restart alsa
+  355  rpm -i alsa-utils
+  356  clear
+  357  alsactl 
+  358  alsactl --help
+  359  alsactl restore
+  360  sudo alsactl restore
+  361  alsaconf
+  362  yum install alsa-utils-alsabat.x86_64 
+  363  sudo yum install alsa-utils-alsabat.x86_64 
+  364  alsa-utils
+  365  mkdir test
+  366  ls
+  367  cd test/
+  368  >file
+  369  ll
+  370  ls
+  371  chmod 000 file
+  372  echo 'Test' >> file 
+  373  cat file 
+  374  chmod 200 file
+  375  ll file 
+  376  echo 'Test' >> file 
+  377  cat file 
+  378  chmod 240 file 
+  379  ll file 
+  380  cat file 
+  381  chmod 640
+  382  chmod 640 file 
+  383  ll file 
+  384  cat file 
+  385  mkdir dir
+  386  cd dir/
+  387  echo 'file 2' new_file
+  388  echo 'file 2' >> new_file
+  389  cat new_file 
+  390  chmod 666 .
+  391  cd //
+  392  cd
+  393  cd test/
+  394  ls
+  395  cat dir/new_file 
+  396  rf dir/new_file 
+  397  rm dir/new_file 
+  398  chown root:root file 
+  399  umask
+  400  umask 0000
+  401  umask 0077
+  402  >testMask0077
+  403  ll
+  404  umask 0000
+  405  >testMask0000
+  406  ll
+  407  su
+  408  sudo chown root file 
+  409  chmod 600
+  410  chmod 600 file 
+  411  sudo chmod 600 file 
+  412  exit
+  413  cd test/
+  414  cat file 
+  415  sudo chmod 660
+  416  sudo chmod 660 file 
+  417  exit
+  418  cat test/file 
+  419  cd test/
+  420  ls -lR > 2lab.txt
+  421  sudo ls -lR > 2lab.txt
+  422  history
+  423  history > 2labHistory.txt
